@@ -3,7 +3,7 @@
 DDL Script: Bronze Tables
 ============================================================================================
 Script Purpose:
-	Thi script cretes tables in the 'bronze' schema, dropping existsing tables
+	This script cretes tables in the 'bronze' schema, dropping existsing tables
 	if they already exist.
 	Run this script to re-define the DDL structure of 'bronze' Tables
 ============================================================================================
