@@ -70,10 +70,10 @@ IF OBJECT_ID('bronze_erp_px_cat_g1v2') IS NOT NULL
 	DROP TABLE bronze_erp_px_cat_g1v2;
 
 CREATE TABLE bronze_erp_px_cat_g1v2(
-ID NVARCHAR(20),
-CAT NVARCHAR(50),
-SUBCAT NVARCHAR(50),
-MAINTENANCE NVARCHAR(10)
+id NVARCHAR(20),
+cat NVARCHAR(50),
+subcat NVARCHAR(50),
+maintenance NVARCHAR(10)
 );
 
 GO
@@ -84,8 +84,8 @@ IF OBJECT_ID('bronze_erp_loc_a101') IS NOT NULL
 	DROP TABLE bronze_erp_loc_a101;
 
 CREATE TABLE bronze_erp_loc_a101(
-CID NVARCHAR(20),
-CNTRY NVARCHAR(50)
+cid NVARCHAR(20),
+cntry NVARCHAR(50)
 );
 
 GO
@@ -96,7 +96,7 @@ IF OBJECT_ID('bronze_erp_cust_az12') IS NOT NULL
 	DROP TABLE bronze_erp_cust_az12 ;
 
 CREATE TABLE bronze_erp_cust_az12(
-CID NVARCHAR(20),
-BDATE DATE,
-GEN NVARCHAR(10)
+cid NVARCHAR(20),
+bdate DATE,
+gen NVARCHAR(10)
 );
