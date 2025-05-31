@@ -1,3 +1,14 @@
+/*
+============================================================================================
+DDL Script: Bronze Tables
+============================================================================================
+Script Purpose:
+	Thi script cretes tables in the 'bronze' schema, dropping existsing tables
+	if they already exist.
+	Run this script to re-define the DDL structure of 'bronze' Tables
+============================================================================================
+*/
+
 USE DataWarehouse
 
 -- Create bronze layer crm customer info table
